@@ -1,0 +1,101 @@
+.albumContent {
+    padding: 10px 40px;
+}
+
+.topBan {
+    display: flex;
+    gap: 30px;
+}
+
+.albumCover {
+    width: 200px;
+}
+
+.albumDeets {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: rgb(205, 203, 203);
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.artist {
+    font-size: 20px;
+    color: white;
+}
+
+.playButton {
+    padding: 10px;
+    background-color: #1DB954;
+    width: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    letter-spacing: 1.5px;
+    transition: transform 0.4s;
+}
+
+.playButton:hover {
+    box-shadow: 2px 2px 7px 2px rgb(138, 138, 138);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.tableHeader {
+    border-bottom: 1px solid rgb(67, 67, 67);
+    display: flex;
+    color: rgb(125, 125, 125);
+    letter-spacing: 1.4px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.numberHeader {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.titleHeader {
+    width: 80%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.tableContent:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.tableContent {
+    border-bottom: 1px solid rgb(67, 67, 67);
+    display: flex;
+    color: rgb(125, 125, 125);
+
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    cursor: pointer;
+
+}
+
+.downloadbtn {
+    font-size: 25px;
+    z-index: 3;
+    padding: 13px;
+    position: absolute;
+    color: #1DB954 !important;
+}

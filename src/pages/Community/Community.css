@@ -1,0 +1,68 @@
+.tweetheader {
+    margin-top: 0;
+}
+
+.tabs {
+    margin-top: 0px;
+}
+
+.loginpage {
+    top: 40%;
+    left: 45%;
+    width: 400px;
+    position: absolute;
+    display: center;
+}
+
+.loginpage button {
+    height: 50px;
+    left: 23%;
+    position: absolute;
+    background-color: #1DB954;
+    color: #fff;
+    border-radius: 0 !important;
+}
+
+.loginpage button:hover {
+    box-shadow: 2px 2px 7px rgb(138, 138, 138);
+    cursor: pointer;
+}
+
+.loginpage .bYpeJY {
+    font-size: 25px;
+    font-weight: 300 !important;
+    color: #fff !important;
+}
+
+
+.loginpage h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: -100px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.wallet {
+    position: absolute;
+    right: 5%;
+    display: inline-flex;
+}
+
+.logout {
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    right: 5%;
+    cursor: pointer;
+    background-color: #1DB954;
+    width: 100px;
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+}
+
+.logout:hover {
+    box-shadow: 2px 2px 7px rgb(138, 138, 138);
+
+}

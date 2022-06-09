@@ -1,0 +1,21 @@
+.singin {
+
+    position: absolute;
+    padding-left: 65%;
+}
+
+.myskybtn {
+    margin-right: 40px;
+    background-color: #1DB954;
+    color: #fff;
+    font-size: 23px;
+    border: none;
+    padding: 10px;
+    transition: transform 0.4s;
+}
+
+.myskybtn:hover {
+    box-shadow: 2px 2px 7px 2px rgb(138, 138, 138);
+    cursor: pointer;
+    transform: scale(1.05);
+}

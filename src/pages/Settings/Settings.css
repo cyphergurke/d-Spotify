@@ -1,0 +1,100 @@
+.settings {
+    padding: 5% 0 10% 20%;
+    color: #fff;
+    font-size: 30px;
+}
+
+.settings h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.settings p {
+    color: #fff;
+    font-size: 23px;
+}
+
+.savesettings {
+    padding: 5px 40px 5px 40px;
+    margin-left: 20%;
+    background-color: #1DB954;
+    position: absolute;
+    border: none;
+    transition: transform 0.4s;
+}
+
+.savesettings:hover {
+    box-shadow: 2px 2px 7px rgb(138, 138, 138);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.sets p {
+    font-size: 18px;
+}
+
+.selectportal {
+    width: 200px;
+    background: transparent;
+    color: #fff;
+}
+
+
+
+
+.ant-select-arrow {
+    color: #000 !important;
+}
+
+.ant-select-selection {
+    background-color: green;
+}
+
+.ant-select-selection-search input[type=text] {
+    background: transparent !important;
+}
+
+.ant-select-selector {
+    background: transparent;
+    font-size: 25px;
+}
+
+.customportal {
+
+    color: #fff;
+    font-size: 20px;
+}
+
+.customportal input {
+    width: 200px;
+}
+
+.customportal button {
+    margin-left: 20px;
+    background-color: #1DB954;
+    width: 150px;
+    height: 37px;
+    color: #fff;
+    border: none;
+    transition: transform 0.4s;
+}
+
+.customportal:hover button {
+    box-shadow: 2px 2px 7px rgb(138, 138, 138);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.profilesettings {
+    padding-top: 40px;
+
+}
+
+.ant-switch {
+    height: 19px;
+}
+
+.ant-switch-handle {
+    height: 19px;
+
+}

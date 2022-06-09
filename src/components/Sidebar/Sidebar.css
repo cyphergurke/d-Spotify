@@ -1,0 +1,43 @@
+.searchBar {
+    border-top: 2px solid rgb(125, 125, 125);
+    border-bottom: 2px solid rgb(125, 125, 125);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.searchBar input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background: transparent;
+    width: 80%;
+}
+
+.sideBar {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.sideBar p {
+
+    color: #1DB954;
+}
+
+.sideBar p:hover {
+
+    text-shadow: 1px 1px 7px rgb(138, 138, 138);
+}
+
+.loginPage {
+    padding-bottom: 20px;
+}
+
+.sc-jfmDQi .gUUyPe {
+    margin-top: 20px;
+}

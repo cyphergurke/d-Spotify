@@ -1,0 +1,99 @@
+.myNft {
+    padding-top: 3%;
+}
+
+.noNft {
+    text-align: center;
+}
+
+.nftgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.nftcard {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #222b33;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7) inset, 0px 0px 0px white;
+    width: 270px;
+    height: 500px;
+
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 5px;
+    position: relative;
+
+}
+
+.nftcard:hover {
+    box-shadow: 0 0 10px rgba(110, 108, 108, 0.7) inset, 0px 0px 0px white;
+
+}
+
+.nftcard img {
+    padding: 10px;
+    width: 250px;
+    max-height: 300px;
+}
+
+.nftcard table {
+
+    margin-left: 10px;
+
+}
+
+.nftdescription {
+    position: absolute;
+    padding-top: 10%;
+    bottom: 20px;
+}
+
+.nftinfo {
+    position: absolute;
+    padding-left: 20px;
+    margin-top: auto;
+}
+
+.nftcard p {
+    margin: 0px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.listbtn {
+    background-color: #1DB954;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    font-size: large;
+    left: 25%;
+    color: #fff;
+    margin: 10px 0 0 55px;
+
+}
+
+.nftcard button {
+    background-color: #1DB954;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    font-size: large;
+    left: 25%;
+    color: #fff;
+    margin: 10px 0 0 55px;
+
+}
+
+.nftcard button:hover {
+    box-shadow: 2px 2px 7px rgb(138, 138, 138);
+    cursor: pointer;
+
+}
+
+.detailsbtn {
+    color: #fff;
+}
