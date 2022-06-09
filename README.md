@@ -1,3 +1,21 @@
+# Decentralized Spotify
+Dezentralized Spotify React App, including Smart Contracts for NFT Marketplace, dezentralized Twitter and DAO.
+
+# Technologies:
+Reactjs, Solidity, Hardhat, Skynet, IPFS, Moralis
+
+# Run App on localhost:3000
+```shell 
+npm start
+
+```
+# Build
+```shell 
+npm run build
+
+```
+
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
@@ -40,3 +58,4 @@ Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_
 ```shell
 npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
 ```
+
