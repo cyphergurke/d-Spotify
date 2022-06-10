@@ -1,6 +1,6 @@
 require("@nomiclabs/hardhat-waffle")
 
-const ROPSTEN_PRIVATE_KEY = "69ce0dff2a9cec93a254c36ce08144e13d8fce62f01e10ca55187049c3cd3956"
+const ROPSTEN_PRIVATE_KEY = ""
 
 module.exports = {
 
